@@ -1,0 +1,23 @@
+*{
+
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+.div1,.div2{
+    display:inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin:0;
+    padding: 0;
+}
+
+.div3{
+    display:inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
