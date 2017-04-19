@@ -1,23 +1,35 @@
-*{
+.frame {
+    height: 25px;      /* equals max image height */
+    width: 160px;
+    border: 1px solid red;
+    white-space: nowrap;
 
-}
-html,body{
-    margin: 0;
-    padding: 0;
-}
-
-.div1,.div2{
-    display:inline-block;
-    width: 200px;
-    height: 200px;
-    background-color: red;
-    margin:0;
-    padding: 0;
+    text-align: center; margin: 1em 0;
 }
 
-.div3{
-    display:inline-block;
-    width: 100px;
-    height: 100px;
-    background-color: blue;
+.frame:before,
+.frame_before {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
 }
+
+img {
+    background: #3A6F9A;
+    vertical-align: middle;
+    max-height: 25px;
+    max-width: 160px;
+}
+
+/* Move this to conditional comments */
+.frame {
+    list-style:none;
+    behavior: expression(
+        function(t){
+            t.insertAdjacentHTML('afterBegin','<span class="frame_before"></span>');
+            t.runtimeStyle.behavior = 'none';
+        }(this)
+    );
+}
+
