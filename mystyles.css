@@ -1,3 +1,125 @@
 *{
 
 }
+
+address {
+    line-height: 25px;
+}
+
+span.span--chinhsach {
+    display: inline-block;
+    width: 80px;
+    color: #b03434;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 18px;
+}
+
+.chinhsach {
+    display: inline-flex;
+    /* overflow: hidden; */
+    align-items: center;
+}
+
+.like-h2 {
+    color: #ac1316;
+    font-size: 14px;
+    margin: 20px 0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+
+button.btn-xemthem:hover {
+    background: #612c2c;
+    color: white;
+}
+
+button.btn-xemthem {
+    background: white;
+    border: thin solid #b03434;
+    color: #b03434;
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    padding: 5px 10px;
+}
+
+
+.img-khoisanpham {
+    display: block;
+    margin: 0 auto;
+}
+
+.h3--khoisanpham {
+    font-size: 13px;
+    color: #ac1316;
+    text-align: center;
+    padding: 0;
+    margin: 15px 0;
+}
+
+h2 {
+    color: #ac1316;
+    font-size: 14px;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background: #761e1e;
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+    display: none;
+}
+
+.navbar-default {background: #aa1415;}
+
+.navbar {
+    margin-bottom: 2px;
+}
+
+p.sodienthoai {
+    color: #aa1415;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: lato;
+    font-weight: 900;
+    padding: 20px 0;
+}
+
+img.logo {
+    padding: 15px 0;
+}
+
+img.welcome {
+    padding: 20px 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.chinhsach {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.doitac{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+}
